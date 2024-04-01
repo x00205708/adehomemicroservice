@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
     - run: |
-          docker build . -t adecontainerregistry.azurecr.io/homemicroservice:latest
-          docker push adecontainerregistry.azurecr.io/homemicroservice:latest
+          docker build . -t adecontainerregistry.azurecr.io/adehomemicroservice:latest
+          docker push adecontainerregistry.azurecr.io/adehomemicroservice:latest
