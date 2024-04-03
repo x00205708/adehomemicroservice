@@ -21,7 +21,7 @@ app.get('/addproduct', async (req, res, next) => {
 
 
 app.post('/postproduct', async (req, res, next) => {
-    const url ="https://adeproductmicroservice.azurewebsites.net/api/products"
+    const url ="https://adeproductmicroservices.azurewebsites.net/api/products"
 
     console.log(req.body)
 
@@ -63,7 +63,7 @@ app.post('/postproduct', async (req, res, next) => {
 });
 
 app.get('/viewproducts', async (req, res, next) => {
-	const url ="https://adeproductmicroservice.azurewebsites.net/api/products"
+	const url ="https://adeproductmicroservices.azurewebsites.net/api/products"
 
 	const options = {
 		method: 'GET',
