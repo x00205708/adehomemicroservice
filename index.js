@@ -2,7 +2,7 @@ var bodyParser = require('body-parser');
 var express = require('express');
 const path = require('path');
 // const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-import fetch from "node-fetch";
+const fetch = require('node-fetch');
 var app = express();
 
 // parse requests of content-type - application/json
