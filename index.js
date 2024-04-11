@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser');
 var express = require('express');
 const path = require('path');
-// const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+
 const fetch = require('node-fetch');
 var app = express();
 
